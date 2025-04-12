@@ -26,3 +26,8 @@ It can be used to test access readers or debug systems before real deployment.
 
 1. Customize the Wiegand bitstream and timing in the code if needed.
 2. The emulator will send predefined Wiegand codes to your access device at regular intervals.
+
+## Reference
+
+1. [https://en.wikipedia.org/wiki/Wiegand_interface](https://en.wikipedia.org/wiki/Wiegand_interface)
+2. [https://www.idesco.com/files/articles/HID%20-%20Understanding%20card%20formats.pdf]("Understanding Card Data Formats - Technology Basics White Paper" (PDF). HID Technology. 2006. Retrieved 14 February 2023.)
