@@ -17,7 +17,7 @@ It can be used to test access readers or debug systems before real deployment.
 !Nota bene: esp32 and stm32 can work but standard voltage on IO is 3.3V, which
 is not enough for Weigand (it won't work, or give unpredictable outcome). 
 In this case it is necessary to use external power source and just control 
-(e.g. logic level converter, MOSFET, pull up resistor with open-drain) 
+(e.g. logic level converter, MOSFET, pull up resistor with open-drain) [3]  
 IO from esp32/stm32.
 
 ### Installation
@@ -37,3 +37,4 @@ IO from esp32/stm32.
 
 1. [https://en.wikipedia.org/wiki/Wiegand_interface](https://en.wikipedia.org/wiki/Wiegand_interface)
 2. [https://www.idesco.com/files/articles/HID%20-%20Understanding%20card%20formats.pdf]("Understanding Card Data Formats - Technology Basics White Paper" (PDF). HID Technology. 2006. Retrieved 14 February 2023.)
+3. [https://next-hack.com/index.php/2020/02/15/how-to-interface-a-3-3v-output-to-a-5v-input/]("How to interface a 3.3V output to a 5V input")
